@@ -6,8 +6,12 @@ namespace ConsumerConsole
     {
         private static void Main(string[] args)
         {
-            BasicUsageRabbitMQ basicUsageRabbitMQ = new BasicUsageRabbitMQ();
-            basicUsageRabbitMQ.Consumer();
+            // Basic Example
+            //BasicUsageRabbitMQ basicUsageRabbitMQ = new BasicUsageRabbitMQ();
+            //basicUsageRabbitMQ.Consumer();
+            // Smart Queue Example
+            //SmartQueue smartQueue = new SmartQueue();
+            //smartQueue.Consumer();
         }
     }
 }
