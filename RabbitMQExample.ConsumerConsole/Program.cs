@@ -12,9 +12,12 @@ namespace ConsumerConsole
             // Smart Queue Example
             //SmartQueue smartQueue = new SmartQueue();
             //smartQueue.Consumer();
-
-            DirectExchange exchange = new DirectExchange();
-            exchange.Consumer(Convert.ToInt32(args[0]));
+            // Direct Exchange Example
+            //DirectExchange exchange = new DirectExchange();
+            //exchange.Consumer(Convert.ToInt32(args[0]));
+            // Fanout Exchange Example
+            FanoutExchange exchange = new FanoutExchange();
+            exchange.Consumer();
         }
     }
 }

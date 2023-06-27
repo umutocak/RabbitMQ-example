@@ -12,7 +12,11 @@ namespace PublisherConsole
             // Smart Queue Example
             //SmartQueue smartQueue = new SmartQueue();
             //smartQueue.Publisher();
-            DirectExchange exchange = new DirectExchange();
+            //Direct Exchange Example
+            //DirectExchange exchange = new DirectExchange();
+            //exchange.Publisher();
+            // Fanout Exchange Example
+            FanoutExchange exchange = new FanoutExchange();
             exchange.Publisher();
         }
     }
